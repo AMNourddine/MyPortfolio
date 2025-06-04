@@ -1,9 +1,8 @@
-FROM node:18-alpine AS build
+FROM node:18-alpine as build
 RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 WORKDIR /app
 COPY package*.json ./
-RUN --mount=type=cache,target=/root/.npm \
-    npm install
+RUN --mount=type=cache,target=/root/.npm npm install
 COPY . .
 RUN npm run build
 
