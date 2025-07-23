@@ -16,3 +16,8 @@
 @import "./sass/sections/contact";
 @import "./sass/sections/hero";
 @import "./sass/sections/projects";
+
+.project-wrapper__text ul li {
+  font-size: 1.5rem;
+  line-height: 1.6;
+}

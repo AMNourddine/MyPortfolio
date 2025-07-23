@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.ico" />
 
     <title>NourddinePortfolio</title>
     <meta
@@ -37,7 +37,7 @@
         <h1 class="hero-title load-hidden">
           Hi, my name is <span class="text-color-main">Nourddine AIT MASSAOUD</span>
           <br />
-          I'm a Cloud and virtualization engineer.
+          I'm a Cloud and Infra engineer.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -60,7 +60,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="assets/profile.png"
                 alt="Profile Image"
               />
             </div>
@@ -68,23 +68,16 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                I'm a cloud and virtualization engineer focused on building
-                scalable infrastructures. I enjoy working with VMware and
-                container technologies to deliver reliable platforms.
+                Certified Cloud and DevOps Engineer with strong expertise in Azure, Kubernetes, and infrastructure automation. I have a proven track record in managing cloud migrations, deploying infrastructure as code with Terraform, containerizing applications with Docker, and orchestrating them with Kubernetes (AKS).
               </p>
               <p class="about-wrapper__info-text">
-                My day to day involves automating deployments with tools like
-                Ansible and Terraform while keeping an eye on emerging cloud
-                trends.
+                I also bring solid experience in on-premise infrastructure (VMware, Hyper-V, Veeam) and disaster recovery strategies. Passionate about automation and DevOps methodologies, I thrive in collaborative, agile environments and focus on delivering scalable, resilient solutions.
               </p>
               <span class="d-flex mt-3">
                 <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:nourddine.ait.massaoud@gmail.com"
                 >
-                  View Resume
+                  Ask for Resume
                 </a>
               </span>
             </div>
@@ -99,48 +92,67 @@
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
-
           <div class="row">
+            <!-- Text Section -->
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Home Lab Infrastructure</h3>
+                <h3 class="project-wrapper__text-title">
+                  Cloud Infrastructure Migration & Automation – Azure & VMware
+                </h3>
                 <div>
-                  <p class="mb-4">
-                    Built a private cloud environment to explore virtualization and
-                    container orchestration while testing new automation tools.
-                  </p>
+                  <p><strong>Led a large-scale transformation project involving cloud migration and infrastructure automation:</strong></p>
+                  <ul>
+                    <li>Migrated resources from on-premise environments (Hyper-V/Nutanix) to Azure using a Lift-and-Shift approach.</li>
+                    <li>Designed and deployed infrastructure using Terraform (IaC) for scalable and repeatable environments.</li>
+                    <li>Managed 2000+ VMs supporting over 10,000 users, ensuring high availability post-migration.</li>
+                    <li>Set up backup and disaster recovery solutions across cloud and hybrid platforms.</li>
+                    <li>Provided documentation and training for knowledge transfer to internal teams.</li>
+                  </ul>
                 </div>
               </div>
             </div>
+
+            <!-- Image Section -->
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
                 <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
-                  <img alt="Lab" class="img-fluid" src="assets/project.jpg" />
+                  <img alt="Project screenshot" class="img-fluid" src="assets/project.jpg" />
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Automation Toolkit</h3>
-                <div>
-                  <p class="mb-4">
-                    A collection of scripts using Ansible and Terraform to speed up
-                    provisioning of cloud resources and virtual machines.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image load-hidden">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
-                  <img alt="Automation" class="img-fluid" src="assets/project.jpg" />
-                </div>
+
+          <div class="row mt-5">
+          <!-- Text Section -->
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">
+                Containerization & Kubernetes Adoption
+              </h3>
+              <div>
+                <p><strong>Modernized application delivery using containers, Kubernetes, and CI/CD pipelines:</strong></p>
+                <ul>
+                  <li>Containerized internal applications using Docker for environment consistency and portability.</li>
+                  <li>Migrated workloads from VMs to Azure Kubernetes Service (AKS) to improve scalability and orchestration.</li>
+                  <li>Built a production-grade Kubernetes cluster with kubeadm (multi-master), automated using Ansible.</li>
+                  <li>Deployed microservices with Helm charts for version-controlled releases.</li>
+                  <li>Implemented CI/CD pipelines with GitLab, enabling continuous integration and smooth deployment workflows.</li>
+                </ul>
               </div>
             </div>
           </div>
+
+          <!-- Image Section -->
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                <img alt="Kubernetes Project" class="img-fluid" src="assets/project.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+
         </div>
       </div>
     </section>
@@ -161,7 +173,7 @@
             rel="noreferrer"
             target="_blank"
             class="contact-icon"
-            href="https://github.com/cobiwave/NourddinePortfolio"
+            href="https://github.com/AMNourddine"
           >
             <i class="fa fa-github fa-lg" aria-hidden="true"></i>
           </a>
