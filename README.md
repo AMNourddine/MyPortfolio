@@ -16,8 +16,6 @@
 - Valid HTML5 & CSS3
 - Optimized with Parcel
 
-View the demo: **[click here](https://the-simplefolio.netlify.app/)**
-
 ---
 
 ## Getting Started
