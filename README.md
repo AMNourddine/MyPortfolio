@@ -1,5 +1,4 @@
-# NourddinePortfolio ⚡️ [![GitHub](https://img.shields.io/github/license/cobiwave/NourddinePortfolio?color=blue)](https://github.com/cobiwave/NourddinePortfolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/cobiwave/NourddinePortfolio) ![GitHub forks](https://img.shields.io/github/forks/cobiwave/NourddinePortfolio)
-
+# NourddinePortfolio ⚡
 ## A minimal portfolio template for Developers!
 
 <h2 align="center">
