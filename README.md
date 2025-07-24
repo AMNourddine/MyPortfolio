@@ -19,6 +19,8 @@
 
 ## Getting Started
 
+View the demo: **[click here](https://portfolio.aitmassaoud.com/)**
+
 ### Prerequisites
 
 - [Git](https://git-scm.com)
