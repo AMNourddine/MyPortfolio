@@ -40,6 +40,6 @@ jobs:
           containerAppName: portfolio2
           resourceGroup: portfilio
           dockerfilePath: ./Dockerfile
-          # Use the full registry path for the image
-          imageToDeploy: aitmassaoud.azurecr.io/portfolio2:${{ github.sha }}
-          location: 'West US 2'  # Added location
+          location: 'West US 2'
+          # Let the action automatically use the built image
+          # Don't specify imageToDeploy - it will use the default built image
