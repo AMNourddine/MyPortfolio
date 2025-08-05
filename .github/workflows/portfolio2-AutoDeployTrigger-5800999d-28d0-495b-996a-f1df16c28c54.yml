@@ -42,9 +42,11 @@ jobs:
           registryPassword: ${{ secrets.PORTFOLIO2_REGISTRY_PASSWORD }}
           containerAppName: portfolio2
           resourceGroup: portfilio
-          imageToBuild: default/[parameters('containerAppName')]:${{ github.sha }}
+          dockerfilePath: ./Dockerfile
+          imageToDeploy: portfolio2:${{ github.sha }}
           _buildArgumentsKey_: |
             _buildArgumentsValues_
+
 
 
 
