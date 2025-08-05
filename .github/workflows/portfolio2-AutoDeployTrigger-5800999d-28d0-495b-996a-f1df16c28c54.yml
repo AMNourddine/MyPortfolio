@@ -37,7 +37,7 @@ jobs:
           appSourcePath: ${{ github.workspace }}
           _dockerfilePathKey_: _dockerfilePath_
           _targetLabelKey_: _targetLabel_
-          registryUrl: 
+          registryUrl: aitmassaoud.azurecr.io
           registryUsername: ${{ secrets.PORTFOLIO2_REGISTRY_USERNAME }}
           registryPassword: ${{ secrets.PORTFOLIO2_REGISTRY_PASSWORD }}
           containerAppName: portfolio2
@@ -45,5 +45,6 @@ jobs:
           imageToBuild: default/[parameters('containerAppName')]:${{ github.sha }}
           _buildArgumentsKey_: |
             _buildArgumentsValues_
+
 
 
